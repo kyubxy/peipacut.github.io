@@ -1,7 +1,7 @@
 # official site
 
 # where
-epictofuu.github.io
+https://epictofuu.github.io/
 
 # what
 p5 website
