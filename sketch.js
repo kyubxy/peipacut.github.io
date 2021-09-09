@@ -58,7 +58,7 @@ function setup() {
   links.push (new link (0, windowHeight / 2 - 9 - 0, "github", "https://github.com/EpicTofuu"))
   links.push (new link (0, windowHeight / 2 - 9 + 30, "donate", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", 25, color (250, 117, 184)))
   links.push (new link (0, windowHeight / 2 - 9 + 60, "about", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"))
-  credit = new link (10, windowHeight - 40, "powered by p5.js\nyasa 2021", "https://p5js.org/", 18)
+  credit = new link (10, windowHeight - 40, "powered by p5.js\nyasa 2021", "https://p5js.org/", 18, color (45))
 }
 
 offset = 0
