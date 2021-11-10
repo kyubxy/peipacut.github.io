@@ -1,0 +1,116 @@
+@font-face {
+	font-family: "nunito";
+	src: url("assets/NunitoExtrabold-BW0lB.ttf");
+}
+
+@keyframes fadeinanim{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes moveinanim{
+	0% {
+		top:100%;
+	}
+	100% {
+		top: 50%;
+	}
+}
+* {	
+	margin: 0;	
+	padding: 0;	
+}
+
+@font-face {
+	font-family: "montserrat";
+	src: url("assets/Montserrat-Regular.ttf");
+}
+
+body {
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+	background-size:cover;
+	overflow: hidden;
+}
+
+.title {
+	font-family: "nunito";
+	text-align: left;
+	font-size: 135pt;
+	color:white;
+}
+
+.focus {
+	margin: 0;
+	position:fixed;
+	top: 25%;
+		
+    animation: fadeinanim ease 2s;
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards; 
+}
+
+.split {
+	width:50%;
+	position:fixed;
+	padding-top:20px;
+}
+
+.left {
+	right: calc(50% + 90px);
+	text-align: right;
+}
+
+.right {
+	right:0;
+	left: calc(50%);
+	text-align: left;
+}
+
+.links {
+	font-family: "montserrat";
+	text-align: left;
+	font-size: 18pt;
+	color:white;
+	padding-left:10px;
+	word-spacing: 30px;
+}
+
+.buttons {
+	text-align: center;
+	word-spacing: 30px;
+	position: relative;
+	margin-top:300px;
+	top:50%;
+
+    /*animation: moveinanim cubic-bezier(0.16, 1, 0.3, 1) 0.8s;*/
+    animation: moveinanim cubic-bezier(0.34, 1.56, 0.64, 1) 0.8s;
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards; 
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a.main {
+	color: #fff;
+	text-decoration: none;
+}
+  
+a.main:hover {
+	background-color: #4761f5
+}
+  
+a.main:active {
+	color: #fff;
+}
+  
+a.main:visited {
+	color: #fff;
+}
