@@ -30,6 +30,11 @@
 	src: url("assets/Montserrat-Regular.ttf");
 }
 
+@font-face {
+	font-family: "omegle";
+	src: url("assets/OmegleRegular-owopB.ttf");
+}
+
 body {
     background-image: url("assets/bg.png");
     background-repeat: no-repeat;
@@ -38,10 +43,11 @@ body {
 }
 
 .title {
-	font-family: "nunito";
+	font-family: "omegle";
 	text-align: left;
-	font-size: 135pt;
+	font-size: 100pt;
 	color:white;
+	line-height:120px;
 }
 
 .focus {
@@ -76,7 +82,6 @@ body {
 	text-align: left;
 	font-size: 18pt;
 	color:white;
-	padding-left:10px;
 	word-spacing: 30px;
 }
 
